@@ -6,4 +6,5 @@ class Types::AuthorType < Types::BaseObject
   field :last_name, String, null: true
   field :yob, Int, null: true
   field :is_alive, Boolean, null: true
+  field :created_at, GraphQL::Types::ISO8601DateTime, null: true
 end
