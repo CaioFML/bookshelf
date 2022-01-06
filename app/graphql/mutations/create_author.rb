@@ -1,4 +1,4 @@
-class Mutations::CreateAuthor < GraphQLMutations::BaseMutation
+class Mutations::CreateAuthor < GraphQL::Schema::Mutation
   null true
 
   argument :first_name, String, required: false
